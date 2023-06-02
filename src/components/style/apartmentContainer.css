@@ -1,0 +1,44 @@
+.container-wrapper {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 20rem;
+  border-radius: 20px;
+  height: 21rem;
+  margin: 10px;
+}
+
+.apartment {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+}
+
+.apartment-image:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.apartment-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.apartment-title {
+  justify-content: center;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.title {
+  color: rgb(90, 90, 90);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.title:hover {
+  cursor: pointer;
+  color: black;
+}
